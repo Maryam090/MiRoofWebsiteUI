@@ -68,8 +68,8 @@
 
             opacity: 0;
             &:checked ~ .checkmark {
-              border: 2px solid #fa6bff;
-              background-color: #fa6bff;
+              border: 2px solid #dd4c12;
+              background-color: #dd4c12;
             }
             &:checked ~ .checkmark::after {
               display: block;

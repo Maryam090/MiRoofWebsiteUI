@@ -6,7 +6,7 @@ import FeatureIconSingle from "../../components/feature-icon/FeatureIconSingle";
 const FeatureIcon = ({ spaceTopClass, spaceBottomClass }) => {
   return (
     <div
-      className={`support-area ${spaceTopClass ? spaceTopClass : ""} ${
+      className={`bg-gray-3 support-area ${spaceTopClass ? spaceTopClass : ""} ${
         spaceBottomClass ? spaceBottomClass : ""
       }`}
     >

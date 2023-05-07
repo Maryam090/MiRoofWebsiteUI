@@ -21,7 +21,7 @@ const TabProductNine = ({
     >
       <div className={`${containerClass ? containerClass : "container"}`}>
         <SectionTitleThree
-          titleText="Featured Products"
+          titleText="Products"
           positionClass="text-center"
         />
         <Tab.Container defaultActiveKey="men">

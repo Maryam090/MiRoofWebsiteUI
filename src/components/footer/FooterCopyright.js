@@ -11,13 +11,13 @@ const FooterCopyright = ({ footerLogo, spaceBottomClass, colorClass }) => {
     >
       <div className="footer-logo">
         <Link to={process.env.PUBLIC_URL + "/"}>
-          <img alt="" src={process.env.PUBLIC_URL + footerLogo} />
+          <img alt="" src={process.env.PUBLIC_URL + footerLogo} width="150px" height="auto" />
         </Link>
       </div>
       <p>
-        © 2020{" "}
+        © 2023{" "}
         <a href="//hasthemes.com" rel="noopener noreferrer" target="_blank">
-          Flone
+          Mi Roof Solar
         </a>
         .<br /> All Rights Reserved
       </p>

@@ -62,7 +62,7 @@ const FooterTwo = ({
                 src={
                   process.env.PUBLIC_URL +
                   `${footerLogo ? footerLogo : "/assets/img/logo/logo.png"}`
-                }
+                }  width="150px" height="auto"
               />
             </Link>
           </div>
